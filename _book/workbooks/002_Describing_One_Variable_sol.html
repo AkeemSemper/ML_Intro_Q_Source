@@ -197,7 +197,7 @@ Each row represents one instance (example) of whatever we’re looking at.
 Each cell is one value.
 </li></ul>
 <div class="cell" data-execution_count="2">
-<div class="cell-output cell-output-display" data-execution_count="209">
+<div class="cell-output cell-output-display" data-execution_count="278">
 
 <div>
 
@@ -305,7 +305,7 @@ Each cell is one value.
 <p>We can select different parts of a dataframe at a time. Most commonly, we want to get one or more of the columns. We can use the column names to get what we want. There are multiple ways to do this, but we will almost always settle on the last one.</p>
 <p>Suppose we want the column of “Survived” - 0 for Leo, 1 for Kate.</p>
 <div class="cell" data-execution_count="3">
-<div class="cell-output cell-output-display" data-execution_count="210">
+<div class="cell-output cell-output-display" data-execution_count="279">
 <pre><code>0      0
 1      1
 2      1
@@ -321,7 +321,7 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="4">
-<div class="cell-output cell-output-display" data-execution_count="211">
+<div class="cell-output cell-output-display" data-execution_count="280">
 <pre><code>0      0
 1      1
 2      1
@@ -337,7 +337,7 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="5">
-<div class="cell-output cell-output-display" data-execution_count="212">
+<div class="cell-output cell-output-display" data-execution_count="281">
 <pre><code>0      0
 1      1
 2      1
@@ -357,7 +357,7 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 <p>Challenge - print multiple columns. Such as Survived and Age!</p>
 <p>You may need to Google, think about what to Google and try to implement what you find. Try to Speculate why the formatting might be a little different here than for one variable.</p>
 <div class="cell" data-execution_count="6">
-<div class="cell-output cell-output-display" data-execution_count="213">
+<div class="cell-output cell-output-display" data-execution_count="282">
 
 <div>
 
@@ -437,7 +437,7 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 <h3 data-number="2.1.2" class="anchored" data-anchor-id="slicing-by-rows"><span class="header-section-number">2.1.2</span> Slicing by Rows</h3>
 <p>We can also select rows from a dataframe. This is generally less important for most of the things that we do. We can select the specific rows we want, or give a condition to filter by. This is effectively the same as using the filter feature in Excel.</p>
 <div class="cell" data-execution_count="7">
-<div class="cell-output cell-output-display" data-execution_count="214">
+<div class="cell-output cell-output-display" data-execution_count="283">
 
 <div>
 
@@ -481,7 +481,7 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="8">
-<div class="cell-output cell-output-display" data-execution_count="215">
+<div class="cell-output cell-output-display" data-execution_count="284">
 
 <div>
 
@@ -677,7 +677,7 @@ Name: Survived, Length: 891, dtype: int64</code></pre>
 </div>
 <p>This can be used to select only the portion of data that we want in a given scenario. For example, if we only wanted Titanic survivors that are in the 18 to 34 age range (pretend we are trying to sell TV ads), we can select that.</p>
 <div class="cell" data-execution_count="9">
-<div class="cell-output cell-output-display" data-execution_count="216">
+<div class="cell-output cell-output-display" data-execution_count="285">
 
 <div>
 
@@ -829,7 +829,7 @@ Bool - true/false.
 <h2 data-number="2.3" class="anchored" data-anchor-id="counts-of-categorical-variables"><span class="header-section-number">2.3</span> Counts of Categorical Variables</h2>
 <p>When dealing with categorical variables the most important thing that we can know is how many times each value occurs.</p>
 <div class="cell" data-execution_count="11">
-<div class="cell-output cell-output-display" data-execution_count="218">
+<div class="cell-output cell-output-display" data-execution_count="287">
 <pre><code>3    491
 1    216
 2    184
@@ -837,7 +837,7 @@ Name: Pclass, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="12">
-<div class="cell-output cell-output-display" data-execution_count="219">
+<div class="cell-output cell-output-display" data-execution_count="288">
 <pre><code>0</code></pre>
 </div>
 </div>
@@ -849,7 +849,7 @@ Name: Pclass, dtype: int64</code></pre>
 <div class="tab-content" data-group="python">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="cell" data-execution_count="13">
-<div class="cell-output cell-output-display" data-execution_count="220">
+<div class="cell-output cell-output-display" data-execution_count="289">
 <pre><code>&lt;AxesSubplot:xlabel='Pclass', ylabel='count'&gt;</code></pre>
 <p>A countplot</p>
 </div>
@@ -860,7 +860,7 @@ Name: Pclass, dtype: int64</code></pre>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="cell" data-execution_count="14">
-<div class="cell-output cell-output-display" data-execution_count="221">
+<div class="cell-output cell-output-display" data-execution_count="290">
 <pre><code>&lt;AxesSubplot:xlabel='Pclass', ylabel='count'&gt;</code></pre>
 <p>A countplot</p>
 </div>
@@ -893,7 +893,7 @@ Numpy - this library has a bunch of useful math-y stuff.
 <div class="tab-content" data-group="python">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <div class="cell" data-execution_count="15">
-<div class="cell-output cell-output-display" data-execution_count="222">
+<div class="cell-output cell-output-display" data-execution_count="291">
 <pre><code>count    891.000000
 mean      32.204208
 std       49.693429
@@ -964,7 +964,7 @@ The Y axis is a count of how many times that value occurs.
 <div class="tab-content" data-group="python">
 <div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
 <div class="cell" data-execution_count="18">
-<div class="cell-output cell-output-display" data-execution_count="225">
+<div class="cell-output cell-output-display" data-execution_count="294">
 <pre><code>&lt;AxesSubplot:xlabel='Age', ylabel='Count'&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -974,7 +974,7 @@ The Y axis is a count of how many times that value occurs.
 </div>
 <div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
 <div class="cell" data-execution_count="19">
-<div class="cell-output cell-output-display" data-execution_count="226">
+<div class="cell-output cell-output-display" data-execution_count="295">
 <pre><code>&lt;AxesSubplot:xlabel='Age', ylabel='Density'&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -984,7 +984,7 @@ The Y axis is a count of how many times that value occurs.
 </div>
 <div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
 <div class="cell" data-execution_count="20">
-<div class="cell-output cell-output-display" data-execution_count="227">
+<div class="cell-output cell-output-display" data-execution_count="296">
 <pre><code>&lt;AxesSubplot:xlabel='Age', ylabel='Density'&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -994,7 +994,7 @@ The Y axis is a count of how many times that value occurs.
 </div>
 <div id="tabset-3-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-4-tab">
 <div class="cell" data-execution_count="21">
-<div class="cell-output cell-output-display" data-execution_count="228">
+<div class="cell-output cell-output-display" data-execution_count="297">
 <pre><code>&lt;AxesSubplot:xlabel='Age', ylabel='Count'&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -1019,7 +1019,7 @@ If we are looking for examples/explainations online, there is a high probability
 One of the key things that makes programming a usefull thing is the ability to have functionality that is modular and can be extended (build better things on top of existing code). This is one of the first places where we start to deal with that. In the example below, we should be able to see that code for a histogram, read it, understand the goal, and replace it with a Seaborn histogram shoudl we desire.
 </li></ul>
 <div class="cell" data-execution_count="22">
-<div class="cell-output cell-output-display" data-execution_count="229">
+<div class="cell-output cell-output-display" data-execution_count="298">
 <pre><code>&lt;AxesSubplot:ylabel='Frequency'&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -1044,7 +1044,7 @@ If the outlier is going to skew our results, and will make predictions less accu
 <p>In practice, most outliers are filtered out. Knowing that Elon Musk has 300 billion dollars will rarely be helpful in building a model to predict the net worth of people. Usually this is the case, outliers are very rare, and don’t really help in predicting a “normal” value.</p>
 <p>We have ways to automatically (-ish) remove outliers that we’ll look at later on in the course. The most simple way to remove outliers is to just create a filter that removes every value that is greater or less than a cutoff. Our histograms can often give us a good idea of what that cutoff should be as we can see it visually on the graph.</p>
 <div class="cell" data-execution_count="23">
-<div class="cell-output cell-output-display" data-execution_count="230">
+<div class="cell-output cell-output-display" data-execution_count="299">
 <pre><code>&lt;AxesSubplot:xlabel='Fare', ylabel='Count'&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-display">
