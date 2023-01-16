@@ -130,3 +130,5 @@ dmypy.json
 
 /.quarto/
 /_site/
+/_book/
+/_output/
